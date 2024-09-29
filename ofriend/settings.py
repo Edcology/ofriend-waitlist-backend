@@ -56,6 +56,7 @@ MIDDLEWARE = [
 # CORS Configuration (Allow requests from React app running on localhost:5173)
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',  # Add your frontend URL here
+    'https://ofriend-waitlist-gold.vercel.app/'
 ]
 
 # Django REST Framework settings
